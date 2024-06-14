@@ -1,0 +1,22 @@
+﻿<Window x:Class="ST10291856PROG6221Poe.Xaml_Files.EditRecipe"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ST10291856PROG6221Poe.Xaml_Files"
+        mc:Ignorable="d"
+        Title="EditRecipe" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/images/SpiceBackground.jpg"/>
+        </Grid.Background>
+        <Button Content="Home" HorizontalAlignment="Right" Height="33" VerticalAlignment="Top" Width="116" 
+         BorderBrush="#FFC33F0B" Background="Black" Foreground="#FFC33F0B" Click="Homebtn" FontFamily="Copperplate Gothic Bold"/>
+
+        <Button Content="Add Recipe" HorizontalAlignment="Right" Height="33" VerticalAlignment="Center" Width="116"
+         BorderBrush="#FFC33F0B" Background="Black" Foreground="#FFC33F0B" Click="Addbtn" FontFamily="Copperplate Gothic Bold"/>
+
+        <Button Content="Edit Recipe" HorizontalAlignment="Right" Height="33" VerticalAlignment="Bottom" Width="116"
+         BorderBrush="#FFC33F0B" Background="Black" Foreground="#FFC33F0B" Click="Editbtn" FontFamily="Copperplate Gothic Bold"/>
+    </Grid>
+</Window>

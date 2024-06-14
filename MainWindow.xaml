@@ -1,0 +1,25 @@
+﻿<Window x:Class="ST10291856PROG6221Poe.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ST10291856PROG6221Poe"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="/Background.png"/>
+        </Grid.Background>
+        <Button Content="Add Recipe" HorizontalAlignment="Left" Height="33" VerticalAlignment="Top" Width="116"
+        Background="Black" BorderBrush="#FFC33F0B" Click="Addbtn" Foreground="#FFC33F0B" FontFamily="Copperplate Gothic Bold"/>
+
+        <Button  Content="Edit Recipe" HorizontalAlignment="Center" Height="33" VerticalAlignment="Top" Width="116" 
+        Background="Black" BorderBrush="#FFC33F0B" Click="Editbtn" Foreground="#FFC33F0B" FontFamily="Copperplate Gothic Bold"/>
+
+        <Button  Content="View Recipe" HorizontalAlignment="Right" Height="33" VerticalAlignment="Top" Width="116" 
+        Background="Black" BorderBrush="#FFC33F0B" Click="Viewbtn" Foreground="#FFC33F0B" FontFamily="Copperplate Gothic Bold"/>
+
+        <Label Content="Love, Death And Flavour" HorizontalAlignment="Center" Height="37" VerticalAlignment="Center" Width="400" Foreground="#FFC33F0B" 
+       FontFamily="Copperplate Gothic Bold" FontSize="27"/>
+    </Grid>
+</Window>
